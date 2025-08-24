@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>কোর্স বিস্তারিত - মোস্তফা মেডিকেল ইনস্টিটিউট</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="https://i.postimg.cc/8PDCY03N/logo.png" type="image/png">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="https://i.postimg.cc/FRLmbCqv/MMI-Logo.png" alt="Mostafa Medical Institute Logo">
+                        <span>মোস্তফা মেডিকেল ইনস্টিটিউট</span>
+                    </a>
+                </div>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="index.html">হোম</a></li>
+                        <li><a href="contact.html">যোগাযোগ</a></li>
+                        <li><a href="https://OfficialEnayet.github.io/results" target="_blank">ভেরিফাই</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Course Details Section -->
+    <section class="course-details-page">
+        <div class="container">
+            <div class="course-details-content">
+                <div class="course-header">
+                    <div class="course-image-large">
+                        <img id="courseImage" src="" alt="Course Image">
+                        <div class="course-popular-badge" id="coursePopularBadge" style="display: none;">Popular</div>
+                        <div class="course-best-choice-badge" id="courseBestChoiceBadge" style="display: none;">Best Choice</div>
+                    </div>
+                    <div class="course-info">
+                        <h1 id="courseTitle">কোর্স শিরোনাম</h1>
+                        <p class="course-description" id="courseDescription">
+                            এই কোর্সে আপনি শিখতে পারবেন আধুনিক চিকিৎসা প্রযুক্তির ব্যবহার এবং বাস্তব প্রয়োগ। 
+                            আমাদের অভিজ্ঞ ইন্সট্রাক্টরদের সাথে একসাথে এগিয়ে চলুন সফলতার পথে।
+                        </p>
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span id="courseDuration">সময়কাল: ১২ মাস</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>অফলাইন ক্লাস</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-language"></i>
+                                <span>বাংলা ভাষা</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>সার্টিফিকেট সহ</span>
+                            </div>
+                        </div>
+                        <div class="course-actions">
+                            <button class="enroll-btn-large" id="courseEnrollBtn">
+                                <i class="fas fa-play"></i>
+                                এনরোল করুন
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-details-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-tab="overview">কোর্স পরিচিতি</button>
+                        <button class="tab-btn" data-tab="curriculum">পাঠ্যসূচি</button>
+                        <button class="tab-btn" data-tab="requirements">প্রয়োজনীয়তা</button>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="tab-panel active" id="overview">
+                            <h3>কোর্স পরিচিতি</h3>
+                            <div id="courseOverview">
+                                <p>
+                                    এই কোর্সটি বিশেষভাবে ডিজাইন করা হয়েছে যারা চিকিৎসা ক্ষেত্রে ক্যারিয়ার গড়তে চান তাদের জন্য। 
+                                    আমাদের পেশাদার ইন্সট্রাক্টররা আপনাকে ধাপে ধাপে গাইড করবেন।
+                                </p>
+                                <ul>
+                                    <li>বেসিক থেকে অ্যাডভান্স লেভেল পর্যন্ত</li>
+                                    <li>প্র্যাকটিক্যাল ট্রেনিং ও হ্যান্ডস-অন এক্সপেরিয়েন্স</li>
+                                    <li>আধুনিক চিকিৎসা সরঞ্জামের ব্যবহার</li>
+                                    <li>ইন্ডাস্ট্রি এক্সপার্ট দের কাছ থেকে শিক্ষা</li>
+                                    <li>জব প্লেসমেন্ট সাপোর্ট</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-panel" id="curriculum">
+                            <h3>পাঠ্যসূচি</h3>
+                            <div id="courseCurriculum">
+                                <div class="curriculum-module">
+                                    <h4>মডিউল ১: মৌলিক ধারণা</h4>
+                                    <ul>
+                                        <li>চিকিৎসা বিজ্ঞানের মূলনীতি</li>
+                                        <li>মানব শরীরের গঠন ও কার্যাবলী</li>
+                                        <li>স্বাস্থ্যবিধি ও নিরাপত্তা</li>
+                                    </ul>
+                                </div>
+                                <div class="curriculum-module">
+                                    <h4>মডিউল ২: ব্যবহারিক প্রয়োগ</h4>
+                                    <ul>
+                                        <li>চিকিৎসা সরঞ্জাম পরিচিতি</li>
+                                        <li>রোগী পরিচর্যার কৌশল</li>
+                                        <li>জরুরি চিকিৎসা সেবা</li>
+                                    </ul>
+                                </div>
+                                <div class="curriculum-module">
+                                    <h4>মডিউল ৩: পেশাদার দক্ষতা</h4>
+                                    <ul>
+                                        <li>চিকিৎসা নথিপত্র ও রেকর্ড রক্ষণাবেক্ষণ</li>
+                                        <li>রোগী যোগাযোগ ও কাউন্সেলিং</li>
+                                        <li>কর্মক্ষেত্রে নৈতিকতা</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-panel" id="requirements">
+                            <h3>প্রয়োজনীয়তা</h3>
+                            <div id="courseRequirements">
+                                <ul>
+                                    <li>শিক্ষা সনদের
+ ফটোকপি</li>
+                                   <li>NID কার্ডের ফটোকপি</li>
+                                    <li>পাসপোর্ট সাইজের ছবি</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section contact-section">
+                    <h3>যোগাযোগ</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+8801601278291">০১৬০১-২৭৮২৯১</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+8801840575780">০১৮৪০-৫৭৫৭৮০</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:mmidhamrai@gmail.com">
+                            <span>mmidhamrai@gmail.com</span></a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>ধামরাই, ঢাকা</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://fb.com/mmidhamrai" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/8801840575780" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 মোস্তফা মেডিকেল ইনস্টিটিউট. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
