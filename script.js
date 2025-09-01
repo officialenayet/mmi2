@@ -1,9 +1,5 @@
 // Loading Animation and Mobile Menu Toggle
 document.addEventListener('DOMContentLoaded', function() {
-    // অন্য কোড...
-    initializeCourseCards();  // সবসময় কল করো
-});
-// পেস্ট করো/পূর্বের টা ডিলিট করো
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navigation = document.querySelector('.navigation');
     
@@ -25,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Add click handlers for course cards on index page
-    if (window.location.pathname.includes('index.html') || window.location.pathname === '/') {
-        initializeCourseCards();
+    if (window.location.pathname.endsWith('/') || window.location.pathname.includes('index.html')) {
+    initializeCourseCards();
     }
 
     // Add smooth scrolling for internal links
@@ -556,4 +552,5 @@ if (window.location.pathname.includes('index.html') || window.location.pathname 
         });
     });
 }
+
 
