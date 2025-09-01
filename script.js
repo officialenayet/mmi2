@@ -1,5 +1,9 @@
 // Loading Animation and Mobile Menu Toggle
 document.addEventListener('DOMContentLoaded', function() {
+    // অন্য কোড...
+    initializeCourseCards();  // সবসময় কল করো
+});
+// পেস্ট করো/পূর্বের টা ডিলিট করো
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navigation = document.querySelector('.navigation');
     
@@ -552,3 +556,4 @@ if (window.location.pathname.includes('index.html') || window.location.pathname 
         });
     });
 }
+
