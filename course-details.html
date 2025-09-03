@@ -8,6 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" href="https://i.postimg.cc/8PDCY03N/logo.png" type="image/png">
+<script>
+  // যদি URL-এ .html থাকে, তবে তা সরিয়ে রিডাইরেক্ট করুন
+  if (window.location.pathname.endsWith('.html')) {
+    window.location.replace(window.location.pathname.replace(/\.html$/, ''));
+  }
+</script>
 </head>
 <body>
 
@@ -190,5 +196,6 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
