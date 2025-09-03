@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Add click handlers for course cards on index page
-    if (window.location.pathname.endsWith('/') || window.location.pathname.includes('index.html')) {
-     initializeCourseCards();
+    if (window.location.pathname.includes('index.html') || window.location.pathname === '/') {
+        initializeCourseCards();
 }
 
     // Add smooth scrolling for internal links
@@ -552,6 +552,7 @@ if (window.location.pathname.includes('index.html') || window.location.pathname 
         });
     });
 }
+
 
 
 
