@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (window.location.pathname.endsWith('/') || window.location.pathname.includes('index.html')) {
     initializeCourseCards();
 }
-}
 
     // Add smooth scrolling for internal links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -553,6 +552,7 @@ if (window.location.pathname.includes('index.html') || window.location.pathname 
         });
     });
 }
+
 
 
 
