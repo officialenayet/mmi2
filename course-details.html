@@ -11,6 +11,14 @@
 </head>
 <body>
 
+
+  <!-- Hide Html in Url -->
+    <script>
+  if (window.location.pathname.endsWith('.html')) {
+    window.location.href = window.location.href.replace('.html', '');
+  }
+</script>
+
     <!-- Header -->
     <header class="header">
         <div class="container">
@@ -190,6 +198,7 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
